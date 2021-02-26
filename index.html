@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sushi Market</title>
+</head>
+<body>
+    <header class="header">
+        <div class="layout">
+        <div class="logo">
+            <img class="logo_img" src="img/clown-fish.webp">
+                <p class="logo_text"> Суши-шмастер </p>
+        </div>
+        <button class="logo_button">
+            <a class="button_link" href="#">Сделать заказ</a>
+        </button>
+    </div>
+    </header>
+    <section class="main">
+        <div class="h1_layer">
+            <h1 class="h1">Суши-шмастер - лучшее, что есть в твоем городе</h1>
+            <h1 class="h1">Порадуй себя и своих родных и близких</h1>
+        </div>
+        <h2 class="h2">Ниже представлены наши  самые популярные позиции</h2>
+        <h2 class="h2">за последние полгода работы на карантине</h2>
+        <div class="product layout_product">
+            <h3 class="h3"> Актуальные позиции </h3>
+            <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="img/s3.webp" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Гринобль ролл</h5>
+      <p class="card-text">Закажи сей вкусный ролл, Он украсит ваший стол, Он порадует ваш глаз, Получи скорей экстаз!</p>
+      <p class="card-link"><a class="text-muted__active" href="#">Заказать</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/s1.webp" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Оранжад ролл</h5>
+      <p class="card-text">Закажи сей вкусный ролл, Он украсит ваший стол, Он порадует ваш глаз, Получи скорей экстаз!</p>
+      <p class="card-link"><a class="text-muted" href="#">Недоступно к заказу</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/s2.webp" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Брауни ролл</h5>
+      <p class="card-text">Закажи сей вкусный ролл, Он украсит ваший стол, Он порадует ваш глаз, Получи скорей экстаз!</p>
+      <p class="card-link"><a class="text-muted" href="#">Недоступно к заказу</a></p>
+    </div>
+  </div>
+  <div class="aside">
+  <img class="product_banner" src="img/s44.webp">
+</div>
+</div>
+<div class="aside__mobile">
+  <img class="product_banner" src="img/s44.webp">
+</div>
+        </div>
+    </section>
+    <section class="discount">
+        <h1 class="discount_h1">Самые выгодные предложения:</h1>
+        <div class="discount_content _review">
+            <img src="img/slide1.webp">
+            <img src="img/slide2.webp">
+            <img src="img/slide3.webp">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_copyright">
+        <script>
+  document.write("Copyright "+ new Date().getFullYear());
+</script>
+</div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('._review').slick({
+        arrows: false,
+        dots: true,
+        autoplay: true
+    });
+    });
+  </script>
+</body>
+</html>

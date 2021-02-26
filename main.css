@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+}
+
+.layout {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    background-color: #0072bc;
+}
+@media (max-width: 605px) {
+    .layout {
+        flex-direction: column;
+    }
+    .logo_button {
+        margin-bottom: 25px;
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo_text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    padding-left: 20px;
+}
+.logo_button {
+    border: none;
+    padding: 15px 30px;
+    background-color: #f26522;
+}
+.button_link {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.layout_product {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-deck {
+    padding-top: 40px;
+}
+.product_banner {
+    margin: 0 auto;
+}
+.product_banner__mobile {
+    display: none;
+}
+.aside__mobile {
+    display: none;
+}
+@media (max-width: 940px) {
+    .aside {
+        display: none;
+    }
+    .aside__mobile {
+        display: flex;
+    }
+}
+
+.card-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #8e0000;
+    text-align: center;
+}
+.card-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+}
+.text-muted__active {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #06811a;
+}
+.card-link {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.h1_layer {
+    padding: 45px 20px;
+}
+.discount_h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 45px;
+    padding-top: 70px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.discount {
+    background-color: #6dcff6;
+}
+.discount_content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.footer_copyright {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
