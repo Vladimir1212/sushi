@@ -60,7 +60,9 @@ a:hover {
     font-family: 'PT Sans', sans-serif;
     font-size: 30px;
     text-align: center;
+    padding: 0px 15px;
 }
+
 .layout_product {
     max-width: 1190px;
     margin: 0 auto;
